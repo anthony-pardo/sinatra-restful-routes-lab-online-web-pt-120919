@@ -1,3 +1,7 @@
 <h4>Recipe:</h4>
 <h6>Name: <%= @recipe.name %></h6>
 <h6>Ingredients: <%= @recipe.ingredients %></h6>
+<h6>Cook Time: <%= @recipe.cook_time %></h6>
+<form action="/delete" method="post">
+  <button name="submit" value="Delete Recipe"></button>
+</form>
